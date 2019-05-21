@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-test
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-test
+  pipelines: {}
